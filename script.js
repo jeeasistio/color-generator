@@ -33,7 +33,6 @@ const getColor = async () => {
   // change
   bg.map(elem => bgChange(elem, hex));
   c.map(elem => colorChange(elem, hex));
-  console.log(color);
 }
 
 // change colors functions
